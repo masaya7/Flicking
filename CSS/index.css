@@ -1,0 +1,46 @@
+body {
+    background-color: #333;
+  }
+  .slider {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 80%;
+  }
+  .slider-img img {
+    height: auto;
+    width: 100%;
+  }
+
+
+
+
+  .slide-arrow {
+    background-color: #333;
+    bottom: 0;
+    height: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 0;
+  }
+  .prev-arrow {
+    border-bottom: 10px solid #333;
+    border-left: 0;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #333;
+    left: -25px;
+  }
+  .next-arrow {
+    border-bottom: 10px solid #333;
+    border-left: 10px solid #fff;
+    border-right: 0;
+    border-top: 10px solid #333;
+    right: -25px;
+  }
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+  }
